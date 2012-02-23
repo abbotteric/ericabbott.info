@@ -1,0 +1,47 @@
+body {
+	background-image:url('../images/bgs/hixs_pattern_evolution.png');
+	}
+	
+.my_title {
+	margin-top:30px;
+	color:#003366;
+	font-family: 'Oswald', sans-serif;
+	font-size:80px;
+	}
+	
+.teaser{
+	margin-top:25px;
+	color:#003366;
+	font-family:'Oswald', san-serif;
+	font-size:25px;
+	}
+	
+.subheading {
+	color:#003366;
+	font-family:'Oswald', sans-serif;
+	font-size:25px;
+	}
+	
+.sub-descriptions {
+	color:#003366;
+	font-family:'Oswald', sans-serif;
+	font-size:14px;
+	}
+	
+.headshot {
+	float:left;
+	margin-right:5px;
+	}
+	
+.below_fold {
+	color:#003366;
+	font-family:'Oswald', sans-serif;
+	font-size:30px;
+	}
+	
+.container {
+	border-radius:15px;
+	background-color:#F5F5F5;
+	/*background-image:url('../images/bgs/small_tiles.png');*/
+	margin:50px 100px;
+	}
