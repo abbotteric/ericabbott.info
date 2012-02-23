@@ -39,6 +39,19 @@ body {
 	font-size:30px;
 	}
 	
+.sidebar_text {
+	color:#EEEEEE;
+	font-family:'Oswald', sans-serif;
+	font-size:16px;
+	}
+	
+.sidebar_container {
+	padding:10px;
+	margin-left: 5px;
+	background-color:#002244;
+	border-radius:15px;
+	}
+	
 .container {
 	border-radius:15px;
 	background-color:#F5F5F5;
