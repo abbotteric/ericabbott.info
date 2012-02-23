@@ -1,3 +1,5 @@
+
+
 body {
 	background-image:url('../images/bgs/hixs_pattern_evolution.png');
 	}
@@ -7,6 +9,8 @@ body {
 	color:#003366;
 	font-family: 'Oswald', sans-serif;
 	font-size:80px;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.15),  
+                0 1px 0 rgba(255,255,255,0.8);
 	}
 	
 .teaser{
@@ -14,18 +18,26 @@ body {
 	color:#003366;
 	font-family:'Oswald', san-serif;
 	font-size:25px;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.15),  
+                0 1px 0 rgba(255,255,255,0.8);
 	}
 	
 .subheading {
 	color:#003366;
 	font-family:'Oswald', sans-serif;
 	font-size:25px;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.15),  
+                0 1px 0 rgba(255,255,255,0.8);
 	}
 	
 .sub-descriptions {
 	color:#003366;
 	font-family:'Oswald', sans-serif;
 	font-size:14px;
+    /*background:#eee;  
+    color:#223;  */
+    text-shadow:0 -1px 0 rgba(0,0,0,0.15),  
+                0 1px 0 rgba(255,255,255,0.8);
 	}
 	
 .headshot {
@@ -56,5 +68,16 @@ body {
 	border-radius:15px;
 	background-color:#F5F5F5;
 	/*background-image:url('../images/bgs/small_tiles.png');*/
-	margin:50px 100px;
+	margin:50px 10%;
 	}
+	
+@media only screen and (max-width: 480px) {
+	.container {
+		margin:0px;
+		border-radius:0px;
+		}
+		
+	.sidebar_container {
+		margin-bottom: 15px;
+		}
+}
